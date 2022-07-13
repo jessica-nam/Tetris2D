@@ -218,6 +218,7 @@ GameObject:
   - component: {fileID: 265495994}
   - component: {fileID: 265495993}
   - component: {fileID: 265495992}
+  - component: {fileID: 265495995}
   m_Layer: 0
   m_Name: Board
   m_TagString: Untagged
@@ -252,6 +253,8 @@ MonoBehaviour:
     tile: {fileID: 11400000, guid: 8091f7dd232b84b4094a66d436f911a0, type: 2}
   - tetromino: 6
     tile: {fileID: 11400000, guid: 282dc2540fe0dd74ea4f19046292b750, type: 2}
+  spawnPosition: {x: -1, y: 8, z: 0}
+  boardSize: {x: 10, y: 20}
 --- !u!156049354 &265495993
 Grid:
   m_ObjectHideFlags: 0
@@ -280,6 +283,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &265495995
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 265495991}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e74a89ca29b46804db6f41a35669376c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
